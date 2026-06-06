@@ -1,4 +1,3 @@
-```markdown
 # 📡 WiFi Heatmap Analyzer
 > **Visualize, Analyze, and Optimize your wireless network coverage with high-performance 2D/3D Heatmaps.**
 
@@ -54,44 +53,3 @@ This application leverages **PyQt6** for a modern GUI, **PyOpenGL** for hardware
    ```bash
    git clone https://github.com/moazabeer/WiFi-Heatmap-Analyzer.git
    cd WiFi-Heatmap-Analyzer
-   ```
-
-2. **Install Dependencies:**
-   ```bash
-   pip install PyQt6 pyqtgraph PyOpenGL numpy scipy pandas pywifi matplotlib
-   ```
-
-3. **Run the Application:**
-   *On Windows (Run as Admin):*
-   ```bash
-   python main.py
-   ```
-   *On Linux/macOS:*
-   ```bash
-   sudo python main.py
-   ```
-
----
-
-## 🔍 How It Works
-1.  **Scanning:** The app triggers the `wifi_scanner.py` to poll nearby Access Points.
-2.  **Mapping:** As you move through your space, the app records your coordinates and the signal strength at that spot.
-3.  **Generating:** `heatmap.py` takes these sparse points and uses **SciPy** (e.g., Gaussian or IDW interpolation) to fill in the gaps.
-4.  **Display:** `visualization.py` uses OpenGL to render a color-coded map (Red = Weak, Green = Strong).
-
----
-
-## 🗓️ Future Enhancements
-- [ ] Importable Floor Plans (JPG/PNG) as background layers.
-- [ ] Multi-floor (Building-scale) 3D analysis.
-- [ ] Export reports in PDF format.
-- [ ] Automated router placement suggestions via AI.
-
----
-
-## 🤝 Contact
-**Moaz Abeer** - [GitHub Profile](https://github.com/moazabeer)
-
----
-*Disclaimer: This tool is intended for network optimization and educational purposes. Ensure you have permission to scan the networks in your vicinity.*
-```
