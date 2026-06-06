@@ -62,3 +62,21 @@ This application leverages **PyQt6** for a modern GUI, **PyOpenGL** for hardware
    ```python main.py
    On Linux/macOS:
    sudo python main.py
+
+## 🔍 How It Works
+1. **Scanning:** The app triggers the `wifi_scanner.py` to poll nearby Access Points and retrieve signal strength (RSSI) data.
+2. **Mapping:** As you navigate your environment, the system correlates your position with captured signal data.
+3. **Generating:** `heatmap.py` processes these sparse data points using **SciPy** (Gaussian or Inverse Distance Weighting interpolation)       to estimate values for the entire floor plan.
+4. **Display:** `visualization.py` translates this data into a visual heatmap where **green** indicates peak performance and **red**            indicates signal failure.
+
+## 🗓️ Future Enhancements
+- [ ] **Importable Floor Plans:** Support for (JPG/PNG) as background layers for more accurate context.
+- [ ] **Building-Scale Analysis:** Multi-floor 3D signal analysis for large facilities.
+- [ ] **Professional Reporting:** Export detailed signal diagnosis reports in PDF format.
+- [ ] **AI Optimization:** Automated router and mesh node placement suggestions via AI.
+
+## 🤝 Contact
+**Moaz Abeer** - [GitHub Profile](https://github.com/moazabeer)
+
+---
+*Disclaimer: This tool is intended for network optimization and educational purposes. Ensure you have permission to scan the networks in your vicinity and comply with local wireless regulations.*
