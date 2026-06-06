@@ -53,3 +53,12 @@ This application leverages **PyQt6** for a modern GUI, **PyOpenGL** for hardware
    ```bash
    git clone https://github.com/moazabeer/WiFi-Heatmap-Analyzer.git
    cd WiFi-Heatmap-Analyzer
+
+2. **Install Dependencies:**
+   ```bash
+   pip install PyQt6 pyqtgraph PyOpenGL numpy scipy pandas pywifi matplotlib
+
+3. **Run the Application: On Windows (Run as Admin):**
+   ```python main.py
+   On Linux/macOS:
+   sudo python main.py
