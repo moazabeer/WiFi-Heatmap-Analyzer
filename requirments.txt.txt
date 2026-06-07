@@ -1,0 +1,8 @@
+PyQt6
+pyqtgraph
+PyOpenGL
+numpy
+scipy
+pandas
+pywifi
+matplotlib
