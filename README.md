@@ -93,7 +93,7 @@ https://github.com/moazabeer/wifi-indoor-localization-ml
 - [ ] **Professional Reporting:** Export detailed signal diagnosis reports in PDF format.
 - [ ] **AI Optimization:** Automated router and mesh node placement suggestions via AI.
 
-## 🤝 Contact
+## 🧑‍💻 Author
 **Moaz Abeer** - [GitHub Profile](https://github.com/moazabeer)
 
 ---
