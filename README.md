@@ -12,7 +12,7 @@ This application leverages **PyQt6** for a modern GUI, **PyOpenGL** for hardware
 
 ---
 
-## Research Pipeline 
+## ⛏️ Research Pipeline 
 
 This application serves as the data collection platform for the Indoor WiFi Localization project.
 
