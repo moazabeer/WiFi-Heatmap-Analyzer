@@ -12,6 +12,24 @@ This application leverages **PyQt6** for a modern GUI, **PyOpenGL** for hardware
 
 ---
 
+## Research Pipeline 
+
+This application serves as the data collection platform for the Indoor WiFi Localization project.
+
+Workflow:
+
+WiFi Heatmap Analyzer
+→ RSSI Data Collection
+→ Dataset Generation
+→ Feature Engineering
+→ Machine Learning Training
+→ Indoor Position Prediction
+
+Related Project:
+https://github.com/moazabeer/wifi-indoor-localization-ml
+
+---
+
 ## ✨ Key Features
 - **Real-Time WiFi Scanning:** Interacts directly with system hardware to capture SSID, RSSI (signal strength), and frequency.
 - **Advanced Interpolation:** Uses `scipy` algorithms to estimate signal strength in areas between data points, creating a smooth, accurate gradient.
